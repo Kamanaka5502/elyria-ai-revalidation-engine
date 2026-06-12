@@ -4,7 +4,7 @@
 
 ## AI Lifecycle Governance · Change Detection · Approval Freshness · Revalidation Control
 
-<img src="assets/ai-revalidation-engine.jpg" alt="Elyria AI Revalidation Engine" width="100%">
+<img src="ai-revalidation-engine.jpg" alt="Elyria AI Revalidation Engine" width="100%">
 
 ![License](https://img.shields.io/badge/license-MIT-1f4f5a?style=for-the-badge)
 ![AI Governance](https://img.shields.io/badge/AI%20Governance-Revalidation%20Engine-1f4f5a?style=for-the-badge)
