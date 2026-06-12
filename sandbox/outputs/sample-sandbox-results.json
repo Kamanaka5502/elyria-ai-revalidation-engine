@@ -1,0 +1,38 @@
+[
+  {
+    "file": "no-material-change.json",
+    "scenario_id": "REV-001",
+    "scenario_name": "No Material Change",
+    "expected": "ADMIT",
+    "actual": "ADMIT",
+    "reason_codes": ["PRIOR_APPROVAL_REMAINS_VALID"],
+    "required_remediation": []
+  },
+  {
+    "file": "missing-change-evidence.json",
+    "scenario_id": "REV-002",
+    "scenario_name": "Missing Change Evidence",
+    "expected": "HOLD",
+    "actual": "HOLD",
+    "reason_codes": ["CHANGE_EVIDENCE_INCOMPLETE"],
+    "required_remediation": ["Complete required ownership, approval, and change evidence before continued use."]
+  },
+  {
+    "file": "model-and-policy-change.json",
+    "scenario_id": "REV-003",
+    "scenario_name": "Model And Policy Change",
+    "expected": "REVALIDATE",
+    "actual": "REVALIDATE",
+    "reason_codes": ["MATERIAL_CHANGE_REQUIRES_REVALIDATION"],
+    "required_remediation": ["Route the AI system back through revalidation before continued production movement."]
+  },
+  {
+    "file": "critical-access-boundary-change.json",
+    "scenario_id": "REV-004",
+    "scenario_name": "Critical Access Boundary Change",
+    "expected": "REFUSE",
+    "actual": "REFUSE",
+    "reason_codes": ["CRITICAL_CONTROL_BOUNDARY_CHANGED"],
+    "required_remediation": ["Stop continued use until critical boundary change is reviewed and explicitly reapproved."]
+  }
+]
