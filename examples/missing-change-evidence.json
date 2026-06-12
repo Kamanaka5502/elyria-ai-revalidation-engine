@@ -1,0 +1,10 @@
+{
+  "scenario_id": "REV-002",
+  "name": "Missing Change Evidence",
+  "approval_record_id": "APR-2026-002",
+  "system_owner": "AI Platform Team",
+  "change_summary": "Prompt tuning was reported, but no accountable change owner was assigned.",
+  "prompt_changed": true,
+  "monitoring_required": true,
+  "monitoring_active": true
+}
