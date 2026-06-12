@@ -1,0 +1,13 @@
+{
+  "scenario_id": "REV-004",
+  "name": "Critical Access Boundary Change",
+  "approval_record_id": "APR-2026-004",
+  "system_owner": "Security Architecture",
+  "change_owner": "Identity Platform Team",
+  "change_summary": "The AI system received expanded privilege that changes identity and production write boundaries.",
+  "access_policy_changed": true,
+  "identity_or_privilege_boundary_changed": true,
+  "production_write_boundary_changed": true,
+  "monitoring_required": true,
+  "monitoring_active": true
+}
