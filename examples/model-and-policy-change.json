@@ -1,0 +1,12 @@
+{
+  "scenario_id": "REV-003",
+  "name": "Model And Policy Change",
+  "approval_record_id": "APR-2026-003",
+  "system_owner": "AI Governance Office",
+  "change_owner": "Model Operations",
+  "change_summary": "The underlying model version changed and the applicable policy library was updated.",
+  "model_changed": true,
+  "governance_policy_changed": true,
+  "monitoring_required": true,
+  "monitoring_active": true
+}
