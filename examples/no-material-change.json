@@ -1,0 +1,10 @@
+{
+  "scenario_id": "REV-001",
+  "name": "No Material Change",
+  "approval_record_id": "APR-2026-001",
+  "system_owner": "AI Platform Team",
+  "change_owner": "Release Manager",
+  "change_summary": "Documentation-only update with no model, prompt, data, tool, policy, access, source, environment, or business-use change.",
+  "monitoring_required": true,
+  "monitoring_active": true
+}
