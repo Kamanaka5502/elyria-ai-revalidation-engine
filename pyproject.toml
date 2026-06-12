@@ -1,0 +1,13 @@
+[project]
+name = "elyria-ai-revalidation-engine"
+version = "0.1.0"
+description = "Public-safe enterprise AI revalidation engine for approval freshness, lifecycle governance, and change-trigger review."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Samantha Revita" }]
+keywords = ["ai-governance", "revalidation", "approval-freshness", "enterprise-ai", "risk-control"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
